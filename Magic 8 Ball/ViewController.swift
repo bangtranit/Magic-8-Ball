@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     }
     
     func random() -> Int{
-        let randomeValue = Int(arc4random_uniform(4))
+        let randomeValue = Int(arc4random_uniform(5))
         print(randomeValue)
         return randomeValue
     }
